@@ -1,4 +1,6 @@
 const Employee = require('../lib/employee');
+
+//created a new mock employee using these parameters
 const employee = new Employee('angela', 0717, 'angelajaume.m@gmail.com');
 
 describe ("Employee", () => {

@@ -43,7 +43,10 @@ N/A
 
 ## Sources
 
-N/A
+https://www.youtube.com/watch?v=31LhQkLcZvE&t=96s
+
+https://www.youtube.com/watch?v=bJY3KfM77pc&t=20s
+
 
 ## Questions
 
