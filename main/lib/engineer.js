@@ -1,5 +1,7 @@
+// It imports the employee parent class 
 const Employee = require('./Employee');
 
+// The Engineer class extends the Employee class
 class Engineer extends Employee {
     constructor(name, id, email, github) {
        
@@ -7,6 +9,7 @@ class Engineer extends Employee {
 
         this.github = github;
     }
+
     getGithub() {
         return this.github;
     }
