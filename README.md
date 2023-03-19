@@ -1,4 +1,4 @@
-# Save-my-team
+# Save my team
 
 ## Description
 
