@@ -4,10 +4,14 @@ const Engineer = require('./lib/Engineer');
 const Intern = require('./lib/Intern');
 const generateHTML = require('./src/generateHTML.js');
 
-// Employees is declared as an empty array
+// teamMembers is declared as an empty array
 const teamMembers = [];
 
 const fs = require("fs");
+const path = require("path");
+const OUTPUT_DIR = path.resolve(__dirname, "output")
+const outputPath = path.join(OUTPUT_DIR, "team.html");
+
 
 // Multiple choice question asking how the user would like to continue
 const promptMenu = () => {
@@ -230,6 +234,12 @@ const promptIntern = () => {
 
 const buildTeam = () => {
     console.log(` Finished building my team!`);
+
+    // Create the output directory if the output path doesn't exist
+    if (!fs.existsSync(OUTPUT_DIR)) {
+        fs.mkdirSync(OUTPUT_DIR)
+    }
+    fs.writeFileSync(outputPath, generateHTML(teamMembers), "utf-8");
 }
 
 promptManager();
