@@ -1,7 +1,7 @@
 const inquirer = require('inquirer');
-const Manager = require('./lib/Manager');
-const Engineer = require('./lib/Engineer');
-const Intern = require('./lib/Intern');
+const Manager = require('./main/lib/manager');
+const Engineer = require('./main/lib/engineer');
+const Intern = require('./main/lib/intern');
 const generateHTML = require('./src/generateHTML.js');
 
 // teamMembers is declared as an empty array
