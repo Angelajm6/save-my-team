@@ -26,12 +26,13 @@ Install the inquirer package by entering the command npm i install into your ter
 
 The following image shows a mock-up of the generated HTML’s appearance and functionality:
 
-
-
+<img width="1693" alt="Screenshot 2023-03-19 at 8 19 34 PM" src="https://user-images.githubusercontent.com/109991922/226222114-c6bff6f5-0c26-4bca-bb05-313b3bd9b644.png">
 
 
 
 Watch the video demo to see how to use this app:
+
+[Save-my-team.webm](https://user-images.githubusercontent.com/109991922/226222122-3a88fbbf-4269-4d5f-9557-e9cbea2f5347.webm)
 
 
 
