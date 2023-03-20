@@ -28,6 +28,9 @@ The following image shows a mock-up of the generated HTML’s appearance and fun
 
 
 
+
+
+
 Watch the video demo to see how to use this app:
 
 
